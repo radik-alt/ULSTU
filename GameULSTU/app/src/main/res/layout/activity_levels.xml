@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Levels">
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:layout_alignParentBottom="true"
+        android:textAllCaps="false" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <Button
+            android:id="@+id/onelevel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="level"
+            android:text="1 уровень"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/twolelel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="level"
+            android:text="2 уровень"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/threelevel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="level"
+            android:text="3 уровень"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/fivelevel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="level"
+            android:text="5 уровень"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/scores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="left"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:text="Балл: "
+        android:textColor="@color/black"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
